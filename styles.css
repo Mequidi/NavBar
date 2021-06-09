@@ -45,6 +45,7 @@
 
 body{
     margin: 0;
+    padding: 0rem;
     box-sizing: border-box;
     /* letter-spacing: var(--spacing); */
     background-color: var(--clr-grey-10);
@@ -58,7 +59,7 @@ body{
     height: 72px;
     padding: 16px;
     background-color: white;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0,0.1);
 }
 .nav-hero{
     position: relative;
@@ -116,7 +117,7 @@ a:hover{
         flex-wrap: wrap;
         transition:all 0.5s linear;
         background-color: white;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     }
     .link-list li{
         flex-basis: 100vh;
