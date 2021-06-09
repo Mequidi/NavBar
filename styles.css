@@ -114,12 +114,18 @@ a:hover{
         height:0;
         overflow:hidden;
         flex-wrap: wrap;
+        transition:all 0.5s linear;
+        background-color: white;
+      
     }
     .link-list li{
         flex-basis: 100vh;
         padding: 0.5rem;
-        transition: var(--transition);
-        
+        transition: var(--transition);  
+        flex-grow: 1;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0.85rem;
     }
     .link-list li:hover{
         background-color: hsl(205, 86%, 81%);;
@@ -128,11 +134,13 @@ a:hover{
     }
     .navbar{
         display: block;
-        transition: all 0.5s linear;  
+        transition: all 0.5s linear; 
+        padding: 0rem;
     }
     .nav-hero{
         display: flex;
         justify-content: space-between;
+        padding: 16px;
     }
     .toggle-btn{
         display: block;
@@ -149,5 +157,6 @@ a:hover{
     }
     .show-list{
         height: 10rem;
+        /* background-color: white; */
     }
 }

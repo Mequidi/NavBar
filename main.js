@@ -1,6 +1,7 @@
 const toggleBtn = document.querySelector(".toggle-btn");
 const linkList = document.querySelector(".link-list");
-const navbar = document.querySelector(".navbar")
+const navbar = document.querySelector("navbar")
+
 
 let temp;
 
