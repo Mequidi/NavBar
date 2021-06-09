@@ -116,7 +116,7 @@ a:hover{
         flex-wrap: wrap;
         transition:all 0.5s linear;
         background-color: white;
-      
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
     .link-list li{
         flex-basis: 100vh;
@@ -126,6 +126,7 @@ a:hover{
         margin-left: 0;
         margin-right: 0;
         padding-left: 0.85rem;
+
     }
     .link-list li:hover{
         background-color: hsl(205, 86%, 81%);;
@@ -157,6 +158,5 @@ a:hover{
     }
     .show-list{
         height: 10rem;
-        /* background-color: white; */
     }
 }
