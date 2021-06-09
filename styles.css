@@ -101,7 +101,7 @@ a{
     cursor: pointer;
 }
 a:hover{
-    color: hsl(205, 89%, 70%);
+    color: hsl(205, 63%, 48%);
 }
 .toggle-btn{
     display: none;
@@ -122,7 +122,7 @@ a:hover{
         
     }
     .link-list li:hover{
-        background-color: hsl(205, 63%, 48%);
+        background-color: hsl(205, 86%, 81%);;
         color: var(--clr-primary-5);
         padding-left: 1.5rem;
     }
