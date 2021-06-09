@@ -80,7 +80,6 @@ body{
     letter-spacing: var(--spacing);
     text-transform: capitalize;
     box-sizing: border-box;
-    
 }
 ul{
     list-style: none;
@@ -112,10 +111,24 @@ a:hover{
         display: none;
     }
     .link-list{
-        display: none;
+        height:0;
+        overflow:hidden;
+        flex-wrap: wrap;
+    }
+    .link-list li{
+        flex-basis: 100vh;
+        padding: 0.5rem;
+        transition: var(--transition);
+        
+    }
+    .link-list li:hover{
+        background-color: hsl(205, 63%, 48%);
+        color: var(--clr-primary-5);
+        padding-left: 1.5rem;
     }
     .navbar{
-    display: block;
+        display: block;
+        transition: all 0.5s linear;  
     }
     .nav-hero{
         display: flex;
@@ -133,5 +146,8 @@ a:hover{
     .toggle-btn:hover{
         transform: rotate(90deg);
         color: hsl(205, 86%, 17%);
+    }
+    .show-list{
+        height: 10rem;
     }
 }
